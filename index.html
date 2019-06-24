@@ -5,11 +5,16 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script type="text/javascript">
-			var __cs = __cs || [];
-			__cs.push(["setCsAccount", "XUT5hhGZoPZqWAttIocXaDv5MsZAGMGC"]);
-			</script>
-<script type="text/javascript" async src="https://app.comagic.ru/static/cs.min.js"></script>
+		<!-- Roistat starts-->
+		<script>
+(function(w, d, s, h, id) {
+    w.roistatProjectId = id; w.roistatHost = h;
+    var p = d.location.protocol == "https:" ? "https://" : "http://";
+    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+    var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+})(window, document, 'script', 'cloud.roistat.com', 'eb8811fe961346a9fa0d2f4b3fae7761');
+</script>
+		<!-- Roistat ends -->
 	</head>
 	<body class="is-preload">
 
